@@ -48,14 +48,14 @@ Add_User()
 	f.setLayout(null);    
 	f.setVisible(true);    
 	f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	f.setResizable(false);
 
-
-	ImageIcon icon = new ImageIcon("C:\\Users\\Admin\\Downloads\\Library-Management-System\\Library-Management-System\\out\\production\\Library_Management\\bkgroundlibrary.jpg");
-	Image img = icon.getImage();
-	JLabel l22 = new JLabel(icon, JLabel.CENTER);
-	l22.setBounds(00, 00, 700, 570);
-	Image newimg = img.getScaledInstance(l22.getWidth(), l22.getHeight(), Image.SCALE_SMOOTH);
-	f.add(l22);
+//	ImageIcon icon = new ImageIcon("C:\\Users\\Admin\\Downloads\\Library-Management-System\\Library-Management-System\\out\\production\\Library_Management\\bkgroundlibrary.jpg");
+//	Image img = icon.getImage();
+//	JLabel l22 = new JLabel(icon, JLabel.CENTER);
+//	l22.setBounds(00, 00, 700, 570);
+//	Image newimg = img.getScaledInstance(l22.getWidth(), l22.getHeight(), Image.SCALE_SMOOTH);
+//	f.add(l22);
 }
 
 	public static void main(String[] args)

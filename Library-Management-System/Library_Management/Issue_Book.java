@@ -96,13 +96,14 @@ public class Issue_Book implements ActionListener {
 		back.setBounds(100, 350, 100, 30);
 		back.addActionListener(this);
 		f.add(back);
+		f.setResizable(false);
 		
-		ImageIcon icon = new ImageIcon("C:\\Users\\Admin\\Downloads\\Library-Management-System\\Library-Management-System\\out\\production\\Library_Management\\bkgroundlibrary.jpg");
-		Image img = icon.getImage();
-		JLabel l22 = new JLabel(icon, JLabel.CENTER);
-		l22.setBounds(00, 00, 1200, 600);
-		Image newimg = img.getScaledInstance(l22.getWidth(), l22.getHeight(), Image.SCALE_SMOOTH);
-		f.add(l22);
+//		ImageIcon icon = new ImageIcon("C:\\Users\\Admin\\Downloads\\Library-Management-System\\Library-Management-System\\out\\production\\Library_Management\\bkgroundlibrary.jpg");
+//		Image img = icon.getImage();
+//		JLabel l22 = new JLabel(icon, JLabel.CENTER);
+//		l22.setBounds(00, 00, 1200, 600);
+//		Image newimg = img.getScaledInstance(l22.getWidth(), l22.getHeight(), Image.SCALE_SMOOTH);
+//		f.add(l22);
 
 
 	}

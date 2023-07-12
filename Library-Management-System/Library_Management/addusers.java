@@ -81,13 +81,14 @@ public class addusers implements ActionListener {
 		back.setBounds(100, 300, 100, 30);
 		back.addActionListener(this);
 		f.add(back);
+		f.setResizable(false);
 		
-		ImageIcon icon = new ImageIcon("F:\\\\\\\\AJP programs\\\\\\\\Swing\\\\\\\\SwingProjects\\\\\\\\src\\\\\\\\Library_Management\\\\user3.jpg");
-		Image img = icon.getImage();
-		JLabel l22 = new JLabel(icon, JLabel.CENTER);
-		l22.setBounds(00, 00, 650, 450);
-		Image newimg = img.getScaledInstance(l22.getWidth(), l22.getHeight(), Image.SCALE_SMOOTH);
-		f.add(l22);
+//		ImageIcon icon = new ImageIcon("F:\\\\\\\\AJP programs\\\\\\\\Swing\\\\\\\\SwingProjects\\\\\\\\src\\\\\\\\Library_Management\\\\user3.jpg");
+//		Image img = icon.getImage();
+//		JLabel l22 = new JLabel(icon, JLabel.CENTER);
+//		l22.setBounds(00, 00, 650, 450);
+//		Image newimg = img.getScaledInstance(l22.getWidth(), l22.getHeight(), Image.SCALE_SMOOTH);
+//		f.add(l22);
 
 	}
 

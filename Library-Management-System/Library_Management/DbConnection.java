@@ -15,7 +15,7 @@ public class DbConnection
 //			driver loaded successfully
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Library_Management","root","");
-			System.out.println("Connection got Successfull");
+//			System.out.println("Connection got Successfull");
 		}
 		
 		catch(Exception e)

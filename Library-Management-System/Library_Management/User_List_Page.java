@@ -19,6 +19,7 @@ public class User_List_Page implements ActionListener{
 		f1.setVisible(true);
 		f1.setLayout(null);
 		f1.setBounds(400,300,950,400);
+		f1.setResizable(false);
 		
 		ImageIcon icon = new ImageIcon("F:\\Others\\Title.jpg");
 		Image img = icon.getImage();
@@ -138,7 +139,7 @@ public class User_List_Page implements ActionListener{
 		{
 
 			System.exit(0);
-			
+
 		}
 	}
 	

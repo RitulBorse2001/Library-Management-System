@@ -20,7 +20,7 @@ public class Add_Book implements ActionListener {
 	{
 		f=new JFrame("Add New Book"); 
 		f.setBounds(600, 300, 200, 400);
-		
+		f.setResizable(false);
 		
 		
 		b1=new JButton("ADD BOOK DETALIS");
@@ -100,12 +100,12 @@ public class Add_Book implements ActionListener {
 		f.setVisible(true);    
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
 		
-		ImageIcon icon = new ImageIcon("C:\\Users\\Admin\\Downloads\\Library-Management-System\\Library-Management-System\\out\\production\\Library_Management\\bkgroundlibrary.jpg");
-		Image img = icon.getImage();
-		JLabel l22 = new JLabel(icon, JLabel.CENTER);
-		l22.setBounds(00, 00, 700, 570);
-		Image newimg = img.getScaledInstance(l22.getWidth(), l22.getHeight(), Image.SCALE_SMOOTH);
-		f.add(l22);
+//		ImageIcon icon = new ImageIcon("C:\\Users\\Admin\\Downloads\\Library-Management-System\\Library-Management-System\\out\\production\\Library_Management\\bkgroundlibrary.jpg");
+//		Image img = icon.getImage();
+//		JLabel l22 = new JLabel(icon, JLabel.CENTER);
+//		l22.setBounds(00, 00, 700, 570);
+//		Image newimg = img.getScaledInstance(l22.getWidth(), l22.getHeight(), Image.SCALE_SMOOTH);
+//		f.add(l22);
 
 
 	}

@@ -78,13 +78,14 @@ public class Return_Book implements ActionListener {
 		back.addActionListener(this);
 		back.setBackground(Color.cyan);
 		f.add(back);
+		f.setResizable(false);
 		
-		ImageIcon icon = new ImageIcon("F:\\AJP programs\\Swing\\SwingProjects\\src\\Library_Management\\return1.jpg");
-		Image img = icon.getImage();
-		JLabel l22 = new JLabel(icon, JLabel.CENTER);
-		l22.setBounds(00, 00, 1200, 600);
-		Image newimg = img.getScaledInstance(l22.getWidth(), l22.getHeight(), Image.SCALE_SMOOTH);
-		f.add(l22);
+//		ImageIcon icon = new ImageIcon("F:\\AJP programs\\Swing\\SwingProjects\\src\\Library_Management\\return1.jpg");
+//		Image img = icon.getImage();
+//		JLabel l22 = new JLabel(icon, JLabel.CENTER);
+//		l22.setBounds(00, 00, 1200, 600);
+//		Image newimg = img.getScaledInstance(l22.getWidth(), l22.getHeight(), Image.SCALE_SMOOTH);
+//		f.add(l22);
 
 	}
 

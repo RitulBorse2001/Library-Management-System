@@ -48,7 +48,8 @@ public class login
 		JPasswordField l_pass = new JPasswordField();
 		l_pass.setBounds(180, 150, 170, 30);
 		f.add(l_pass);
-		
+
+		f.setResizable(false);
 		JButton b1 = new JButton("Login"); 
 		b1.setBounds(160, 220, 80, 25);
 		b1.setBackground(Color.CYAN);
@@ -72,12 +73,12 @@ public class login
 		f.add(b1);
 		
 		
-		ImageIcon icon = new ImageIcon("C:\\Users\\Admin\\Downloads\\Library-Management-System\\Library-Management-System\\out\\production\\Library_Management\\bkgroundlibrary.jpg");
-		Image img = icon.getImage();
-		JLabel l22 = new JLabel(icon, JLabel.CENTER);
-		l22.setBounds(00, 00, 500, 300);
-		Image newimg = img.getScaledInstance(l22.getWidth(), l22.getHeight(), Image.SCALE_SMOOTH);
-		f.add(l22);
+//		ImageIcon icon = new ImageIcon("C:\\Users\\Admin\\Downloads\\Library-Management-System\\Library-Management-System\\out\\production\\Library_Management\\bkgroundlibrary.jpg");
+//		Image img = icon.getImage();
+//		JLabel l22 = new JLabel(icon, JLabel.CENTER);
+//		l22.setBounds(00, 00, 500, 300);
+//		Image newimg = img.getScaledInstance(l22.getWidth(), l22.getHeight(), Image.SCALE_SMOOTH);
+//		f.add(l22);
 	}
 
 	public static void main(String args[]) 
